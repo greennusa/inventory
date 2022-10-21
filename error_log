@@ -1,0 +1,232 @@
+[03-Oct-2018 02:47:36 UTC] PHP Warning:  require(/home/greennusa1/public_html/inventoryudit/laravel_app/bootstrap/autoload.php): failed to open stream: No such file or directory in /home/greennusa1/public_html/inventoryudit/index.php on line 22
+[03-Oct-2018 02:47:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/greennusa1/public_html/inventoryudit/laravel_app/bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/greennusa1/public_html/inventoryudit/index.php on line 22
+[15-Nov-2018 22:49:38 UTC] PHP Fatal error:  Class 'DNS2D' not found in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/e0655d877f59238c628699dcb5fa0c4348250198.php on line 59
+[26-Nov-2018 06:58:17 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/25d7f051452dd54d3a538b23355401b9b443041e.php on line 17
+[26-Nov-2018 06:58:23 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/25d7f051452dd54d3a538b23355401b9b443041e.php on line 17
+[26-Nov-2018 06:59:11 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/25d7f051452dd54d3a538b23355401b9b443041e.php on line 17
+[05-Dec-2018 03:52:20 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/5e8ab2c4ebf914e9787d4e2cf591d2d7a40a6659.php on line 90
+[05-Dec-2018 07:57:52 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/5e8ab2c4ebf914e9787d4e2cf591d2d7a40a6659.php on line 90
+[06-Dec-2018 06:49:00 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/5e8ab2c4ebf914e9787d4e2cf591d2d7a40a6659.php on line 90
+[29-Jan-2019 09:08:15 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ':' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/eb8364e3ac8bfa0894c676b20d85a8e9a68f0a09.php on line 148
+[29-Jan-2019 09:08:31 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ':' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/eb8364e3ac8bfa0894c676b20d85a8e9a68f0a09.php on line 148
+[29-Jan-2019 09:08:53 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ':' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/eb8364e3ac8bfa0894c676b20d85a8e9a68f0a09.php on line 148
+[29-Jan-2019 09:08:58 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ':' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/eb8364e3ac8bfa0894c676b20d85a8e9a68f0a09.php on line 148
+[29-Jan-2019 11:27:48 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ':' in /home/greennusa1/public_html/inventoryudit/laravel_app/storage/framework/views/eb8364e3ac8bfa0894c676b20d85a8e9a68f0a09.php on line 148
+[18-Mar-2020 12:28:33 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:28:34 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:35:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:37:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:44:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:44:21 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:45:58 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:46:09 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 12:46:19 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[18-Mar-2020 20:00:35 Asia/Pontianak] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Notifications/EventHandler.php on line 44
+[27-Mar-2020 09:20:13 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/greennusa1/public_html/inventory/laravel_app/vendor/spatie/laravel-backup/src/Helpers/functions.php on line 5
+[29-Mar-2020 20:38:06 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory1/laravel_app/app/Http/Controllers/BuktiBarangMasukController.php on line 468
+[29-Mar-2020 20:40:16 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'OK' (T_STRING), expecting ',' or ';' in /home/greennusa1/public_html/inventory1/laravel_app/app/Http/Controllers/BuktiBarangMasukController.php on line 464
+[02-Apr-2020 12:18:14 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/a404a4d3c4d3b9a51ed0b0ad9fad13e3a6119a16.php on line 17
+[02-Apr-2020 12:18:14 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[02-Apr-2020 12:18:32 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/a404a4d3c4d3b9a51ed0b0ad9fad13e3a6119a16.php on line 17
+[02-Apr-2020 12:18:32 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[02-Apr-2020 12:20:26 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/a404a4d3c4d3b9a51ed0b0ad9fad13e3a6119a16.php on line 17
+[02-Apr-2020 12:20:26 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[02-Apr-2020 12:44:07 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory/laravel_app/app/Http/Controllers/PemesananBarangController.php on line 49
+[02-Apr-2020 12:58:08 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$r' (T_VARIABLE) in /home/greennusa1/public_html/inventory/laravel_app/app/Http/Controllers/PemesananBarangController.php on line 47
+[02-Apr-2020 13:09:43 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/greennusa1/public_html/inventory/laravel_app/app/Http/Controllers/PemesananBarangController.php on line 47
+[02-Apr-2020 13:44:48 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$q' (T_VARIABLE), expecting '(' in /home/greennusa1/public_html/inventory/laravel_app/app/Http/Controllers/MonitoringUnitController.php on line 33
+[02-Apr-2020 13:45:14 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$', expecting '&' or variable (T_VARIABLE) in /home/greennusa1/public_html/inventory/laravel_app/app/Http/Controllers/MonitoringUnitController.php on line 33
+[24-Apr-2020 12:56:24 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/fba8274e4e8c0e2abc08af0e420e66c7d50729b3.php on line 102
+[24-Apr-2020 12:56:25 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleEx in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 15:43:22 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$kategori' (T_VARIABLE) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/6f6a68133472c99465a3bafb331fad7c81d0ead4.php on line 109
+[10-May-2020 15:43:22 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 16:07:18 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'merge' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/6f6a68133472c99465a3bafb331fad7c81d0ead4.php on line 188
+[10-May-2020 16:07:18 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 16:09:31 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function get() on integer in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/6f6a68133472c99465a3bafb331fad7c81d0ead4.php on line 188
+[10-May-2020 16:09:31 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 16:09:38 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function get() on integer in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/6f6a68133472c99465a3bafb331fad7c81d0ead4.php on line 188
+[10-May-2020 16:09:38 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 20:36:53 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'whereHas' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/8396d11c030210b1cf30923d61bd5911d8ed5b7c.php on line 192
+[10-May-2020 20:36:53 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 20:37:06 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'whereHas' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/8396d11c030210b1cf30923d61bd5911d8ed5b7c.php on line 192
+[10-May-2020 20:37:06 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 20:37:08 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'whereHas' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/8396d11c030210b1cf30923d61bd5911d8ed5b7c.php on line 192
+[10-May-2020 20:37:08 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 20:37:18 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'whereHas' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/8396d11c030210b1cf30923d61bd5911d8ed5b7c.php on line 192
+[10-May-2020 20:37:18 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[10-May-2020 21:44:51 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$barang' (T_VARIABLE) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/8396d11c030210b1cf30923d61bd5911d8ed5b7c.php on line 134
+[10-May-2020 21:44:51 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[12-May-2020 11:56:00 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'sortBy' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/420dc24fb7008a212c2ef80527babd322bd3f12a.php on line 115
+[12-May-2020 11:56:00 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[12-May-2020 12:06:42 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected end of file in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/420dc24fb7008a212c2ef80527babd322bd3f12a.php on line 370
+[12-May-2020 12:06:42 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[12-May-2020 13:32:47 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/54cccff364fe655b7d36f95ee92fafb15f69e81e.php on line 251
+[12-May-2020 13:32:47 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[12-May-2020 13:33:01 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/54cccff364fe655b7d36f95ee92fafb15f69e81e.php on line 251
+[12-May-2020 13:33:01 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[12-May-2020 15:50:16 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 269
+[12-May-2020 15:50:16 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 08:14:22 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 269
+[13-May-2020 08:14:22 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 08:14:44 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 269
+[13-May-2020 08:14:44 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 08:14:54 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 270
+[13-May-2020 08:14:54 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 11:23:21 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'get' (T_STRING) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 267
+[13-May-2020 11:23:21 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 12:37:37 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '@' in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 251
+[13-May-2020 12:37:37 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[13-May-2020 12:38:34 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/77b0c305a62db386722c1d858c43adf82895a4e7.php on line 251
+[13-May-2020 12:38:34 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
+[19-May-2020 13:02:18 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '}' in /home/greennusa1/public_html/inventory/laravel_app/storage/framework/views/43e2913be16eca0f159bbd8a5c3a3c8146a4fdd2.php on line 262
+[19-May-2020 13:02:18 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (0)' in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php:1274
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/greennusa...', 1274, Array)
+#1 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(1274): ob_end_flush()
+#2 /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php(368): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/greennusa1/public_html/inventory/laravel_app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Fou in /home/greennusa1/public_html/inventory/laravel_app/vendor/symfony/http-foundation/Response.php on line 1274
