@@ -177,7 +177,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Bogardo\Mailgun\MailgunServiceProvider::class,
-        Milon\Barcode\BarcodeServiceProvider::class,
+        //Milon\Barcode\BarcodeServiceProvider::class,
     ],
 
     /*
