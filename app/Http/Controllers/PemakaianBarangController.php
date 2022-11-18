@@ -339,7 +339,7 @@ class PemakaianBarangController extends Controller
 
 
 
-        return redirect('item_use');
+        return redirect('item_use/'.$p->id.'/edit');
 
     }
 
