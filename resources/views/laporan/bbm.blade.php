@@ -3,166 +3,169 @@
 
 
 @section('content')
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Laporan Pemakaian BBM dan Pelumas<br><br> <a class="btn btn-default"
+                            href="{{ url('report') }}">Kembali</a></div>
 
 
 
+                    <div class="panel-body">
 
+                        <form class="form-inline" action="<?php echo url('report/bbm/print_laporan'); ?>" target="_blank">
 
-<div class="container">
+                            <div class="row">
 
-    <div class="row">
+                                <div class="col-md-3">
 
-        <div class="col-md-12">
+                                    <span style="color: red">Bulan :</span>
 
-            <div class="panel panel-default">
+                                    <br>
 
-                <div class="panel-heading">Laporan Pemakaian BBM dan Pelumas<br><br> <a class="btn btn-default" href="{{ url('report') }}">Kembali</a></div>
+                                    <input type="text" name="tanggal" class="form-control date-picker">
 
-
-
-                <div class="panel-body">
-
-                    <form class="form-inline" action="<?php echo url("report/bbm/print_laporan") ?>" target="_blank">
-
-                        <div class="row">
-
-                        	<div class="col-md-3">
-
-                        	<span style="color: red">Bulan :</span>
-
-                                <br>
-
-                                <input type="text" name="tanggal" class="form-control date-picker">
+                                </div>
 
                             </div>
 
-                        </div>
+
+
+                            <div class="row ">
 
 
 
-                        <div class="row ">
+                                <div class="col-md-3">
+
+                                    <span style="color: red">Diketahui Oleh</span>
+
+                                    <br>
+
+                                    <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true"
+                                        required>
+
+                                        <option value="">Diketahui Oleh</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <span style="color: red">Disetujui I</span>
+
+                                    <br>
+
+                                    <select class="selectpicker" name="disetujui_1" id="disetujui_1" data-live-search="true"
+                                        required>
+
+                                        <option value="">Disetujui Oleh I</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
 
 
 
-                            <div class="col-md-3">
 
-                                <span style="color: red">Diketahui Oleh</span>
-
-                                <br>
-
-                                <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true" required>
-
-                                    <option value="">Diketahui Oleh</option>
-
-                                    <?php foreach ($user as $u): ?>
-
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-
-                                    <?php endforeach ?>
-
-                                </select>
 
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="row ">
 
-                                <span style="color: red">Disetujui I</span>
+                                <div class="col-md-3">
 
-                                <br>
+                                    <span style="color: red">Disetujui II (pilih 2 orang)</span>
 
-                                <select class="selectpicker" name="disetujui_1" id="disetujui_1" data-live-search="true" required>
+                                    <br>
 
-                                    <option value="">Disetujui Oleh I</option>
+                                    <select class="selectpicker" name="disetujui_2[]" multiple id="disetujui_2"
+                                        data-live-search="true" required>
 
-                                    <?php foreach ($user as $u): ?>
 
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
 
-                                    <?php endforeach ?>
+                                        <?php foreach ($user as $u): ?>
 
-                                </select>
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <span style="color: red" value="">Dibuat Oleh</span>
+
+                                    <br>
+
+                                    <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true"
+                                        required>
+
+                                        <option value="">Dibuat Oleh</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+
+
+
 
                             </div>
 
-                    
 
-                                
 
-                        </div>
 
-                        <div class="row ">
 
-                            <div class="col-md-3">
 
-                                <span style="color: red">Disetujui II (pilih 2 orang)</span>
 
-                                <br>
+                            <br>
 
-                                <select class="selectpicker" name="disetujui_2[]" multiple id="disetujui_2" data-live-search="true" required>
 
-                                    
 
-                                    <?php foreach ($user as $u): ?>
+                            <div class="row col-md-3">
 
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
+                                <button type="submit" name="format" value="print" class="btn btn-success"><span
+                                        class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
 
-                                    <?php endforeach ?>
-
-                                </select>
+                                {{-- <button type="submit" name="format" value="doc" class="btn btn-success"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button> --}}
 
                             </div>
 
-                            <div class="col-md-3">
-
-                                <span style="color: red" value="">Dibuat Oleh</span>
-
-                                <br>
-
-                                <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true" required>
-
-                                    <option value="">Dibuat Oleh</option>
-
-                                    <?php foreach ($user as $u): ?>
-
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-
-                                    <?php endforeach ?>
-
-                                </select>
-
-                            </div> 
-
-                        
-
-                                
-
-                        </div>
-
-                            
-
-                 
-
-                            
-
-                        <br>
+                        </form>
 
 
 
-                        <div class="row col-md-3">
-
-                            <button type="submit" name="format" value="print" class="btn btn-success"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
-
-                        {{-- <button type="submit" name="format" value="doc" class="btn btn-success"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button> --}}
-
-                        </div>
-
-                    </form> 
 
 
 
-                    
 
-
+                    </div>
 
                 </div>
 
@@ -170,169 +173,175 @@
 
         </div>
 
-    </div>
+
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Laporan Pemakaian BBM dan Pelumas, Skidding, Road Construction, Produksi,
+                        DLL<br><br> <a class="btn btn-default" href="{{ url('report') }}">Kembali</a></div>
 
 
 
-    <div class="row">
+                    <div class="panel-body">
 
-        <div class="col-md-12">
-
-            <div class="panel panel-default">
-
-                <div class="panel-heading">Laporan Pemakaian BBM dan Pelumas, Skidding, Road Construction, Produksi, DLL<br><br> <a class="btn btn-default" href="{{ url('report') }}">Kembali</a></div>
+                        <form class="form-inline" action="<?php echo url('report/bbm/print_laporan_2'); ?>" target="_blank">
 
 
 
-                <div class="panel-body">
-
-                    <form class="form-inline" action="<?php echo url("report/bbm/print_laporan_2") ?>" target="_blank">
-
-                        
-
-                        
-
-                        
-
-                        <div class="row">
-
-                            <div class="col-md-3">
-
-                            <span style="color: red">Bulan :</span>
-
-                                <br>
-
-                                <input type="text" name="tanggal" class="form-control date-picker">
-
-                            </div>
-
-                        </div>
 
 
 
-                        <div class="row ">
 
+                            <div class="row">
 
+                                <div class="col-md-3">
 
-                            <div class="col-md-3">
+                                    <span style="color: red">Bulan :</span>
 
-                                <span style="color: red">Diketahui Oleh</span>
+                                    <br>
 
-                                <br>
+                                    <input type="text" name="tanggal" class="form-control date-picker">
 
-                                <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true" required>
-
-                                    <option value="">Diketahui Oleh</option>
-
-                                    <?php foreach ($user as $u): ?>
-
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-
-                                    <?php endforeach ?>
-
-                                </select>
+                                </div>
 
                             </div>
 
-                            <div class="col-md-3">
 
-                                <span style="color: red">Disetujui I</span>
 
-                                <br>
+                            <div class="row ">
 
-                                <select class="selectpicker" name="disetujui_1" id="disetujui_1" data-live-search="true" required>
 
-                                    <option value="">Disetujui Oleh I</option>
 
-                                    <?php foreach ($user as $u): ?>
+                                <div class="col-md-3">
 
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
+                                    <span style="color: red">Diketahui Oleh</span>
 
-                                    <?php endforeach ?>
+                                    <br>
 
-                                </select>
+                                    <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true"
+                                        required>
+
+                                        <option value="">Diketahui Oleh</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <span style="color: red">Disetujui I</span>
+
+                                    <br>
+
+                                    <select class="selectpicker" name="disetujui_1" id="disetujui_1" data-live-search="true"
+                                        required>
+
+                                        <option value="">Disetujui Oleh I</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+
+
+
 
                             </div>
 
-                    
+                            <div class="row ">
 
-                                
+                                <div class="col-md-3">
 
-                        </div>
+                                    <span style="color: red">Disetujui II (pilih 2 orang)</span>
 
-                        <div class="row ">
+                                    <br>
 
-                            <div class="col-md-3">
+                                    <select class="selectpicker" name="disetujui_2[]" multiple id="disetujui_2"
+                                        data-live-search="true" required>
 
-                                <span style="color: red">Disetujui II (pilih 2 orang)</span>
 
-                                <br>
 
-                                <select class="selectpicker" name="disetujui_2[]" multiple id="disetujui_2" data-live-search="true" required>
+                                        <?php foreach ($user as $u): ?>
 
-                                    
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
 
-                                    <?php foreach ($user as $u): ?>
+                                        <?php endforeach ?>
 
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
+                                    </select>
 
-                                    <?php endforeach ?>
+                                </div>
 
-                                </select>
+                                <div class="col-md-3">
+
+                                    <span style="color: red">Dibuat Oleh</span>
+
+                                    <br>
+
+                                    <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true"
+                                        required>
+
+                                        <option value="">Dibuat Oleh</option>
+
+                                        <?php foreach ($user as $u): ?>
+
+                                        <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+
+                                        <?php endforeach ?>
+
+                                    </select>
+
+                                </div>
+
+
+
+
 
                             </div>
 
-                            <div class="col-md-3">
-
-                                <span style="color: red">Dibuat Oleh</span>
-
-                                <br>
-
-                                <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true" required>
-
-                                    <option value="">Dibuat Oleh</option>
-
-                                    <?php foreach ($user as $u): ?>
-
-                                        <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-
-                                    <?php endforeach ?>
-
-                                </select>
-
-                            </div> 
-
-                        
-
-                                
-
-                        </div>
-
-                            
-
-                 
-
-                            
-
-                        <br>
 
 
 
-                        <div class="row col-md-3">
-
-                            <button type="submit" name="format" value="print" class="btn btn-success"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
-
-                        {{-- <button type="submit" name="format" value="doc" class="btn btn-success"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button> --}}
-
-                        </div>
-
-                    </form> 
 
 
 
-                    
+                            <br>
 
 
+
+                            <div class="row col-md-3">
+
+                                <button type="submit" name="format" value="print" class="btn btn-success"><span
+                                        class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
+
+                                {{-- <button type="submit" name="format" value="doc" class="btn btn-success"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button> --}}
+
+                            </div>
+
+                        </form>
+
+
+
+
+
+
+
+                    </div>
 
                 </div>
 
@@ -340,78 +349,77 @@
 
         </div>
 
-    </div>
 
 
 
 
 
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Rekapitulasi Bahan Bakar Minyak<br><br> <a class="btn btn-default"
+                            href="{{ url('report') }}">Kembali</a></div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">Rekapitulasi Bahan Bakar Minyak<br><br> <a class="btn btn-default" href="{{ url('report') }}">Kembali</a></div>
+                    <div class="panel-body">
+                        <form class="form-inline" action="<?php echo url('report/oil/print_bbm'); ?>" target="_blank">
+                            <input type="text" class="form-control date-picker" name="tanggal" id="tanggal"
+                                placeholder="Pilih Bulan" required>
+                            <input type="text" class="form-control date-picker" name="tanggal2" id="tanggal2"
+                                placeholder="Pilih Bulan" required>
+                            <input type="text" class="form-control" name="keterangan" id="keterangan"
+                                placeholder="Keterangan">
+                            <br>
+                            <br>
+                            <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true"
+                                required>
+                                <option value="">Diketahui Oleh</option>
+                                <?php foreach ($user as $u): ?>
+                                <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+                                <?php endforeach ?>
+                            </select>
 
-                <div class="panel-body">
-                    <form class="form-inline" action="<?php echo url("report/oil/print_bbm") ?>" target="_blank">
-                        <input type="text"  class="form-control date-picker" name="tanggal" id="tanggal" placeholder="Pilih Bulan" required>
-                        <input type="text"  class="form-control date-picker" name="tanggal2" id="tanggal2" placeholder="Pilih Bulan" required>
-                        
-                        <br>
-                        <br>
-                        <select class="selectpicker" name="diketahui" id="diketahui" data-live-search="true" required>
-                            <option value="">Diketahui Oleh</option>
-                            <?php foreach ($user as $u): ?>
-                                <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-                            <?php endforeach ?>
-                        </select>
-                 
-                        <select class="selectpicker" name="disetujui" id="disetujui" data-live-search="true" required>
-                            <option value="">Disetujui Oleh</option>
-                            <?php foreach ($user as $u): ?>
-                                <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-                            <?php endforeach ?>
-                        </select>
-                        
-                        <br>
-                        <br>
+                            <select class="selectpicker" name="disetujui" id="disetujui" data-live-search="true"
+                                required>
+                                <option value="">Disetujui Oleh</option>
+                                <?php foreach ($user as $u): ?>
+                                <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+                                <?php endforeach ?>
+                            </select>
 
-                        <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true" required>
-                            <option value="">Dibuat Oleh</option>
-                            <?php foreach ($user as $u): ?>
-                                <option value="<?php echo $u->id ?>" ><?php echo $u->nama ?></option>
-                            <?php endforeach ?>
-                        </select>
-                 
-                        
+                            <br>
+                            <br>
 
-                        <br>
-                        <br>
-                        <button type="submit" name="format" value="print" class="btn btn-success"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
-                        <button type="submit" name="format" value="doc" class="btn btn-success"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button>
-                    </form> 
+                            <select class="selectpicker" name="dibuat" id="dibuat" data-live-search="true" required>
+                                <option value="">Dibuat Oleh</option>
+                                <?php foreach ($user as $u): ?>
+                                <option value="<?php echo $u->id; ?>"><?php echo $u->nama; ?></option>
+                                <?php endforeach ?>
+                            </select>
 
-                    
 
+
+                            <br>
+                            <br>
+                            <button type="submit" name="format" value="print" class="btn btn-success"><span
+                                    class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
+                            <button type="submit" name="format" value="doc" class="btn btn-success"><span
+                                    class="glyphicon glyphicon-file" aria-hidden="true"></span> Doc</button>
+                        </form>
+
+
+
+                    </div>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
-
-    
-
-</div>
-
-
-
-
-
-
-
 @endsection
